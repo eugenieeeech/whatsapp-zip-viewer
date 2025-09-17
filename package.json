@@ -1,0 +1,13 @@
+{
+  "name": "whatsapp-zip-viewer",
+  "version": "1.0.0",
+  "description": "Local WhatsApp ZIP export viewer",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "jszip": "^3.10.1"
+  },
+  "scripts": {
+    "start": "webpack serve --mode development"
+  }
+}
