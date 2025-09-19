@@ -11,14 +11,13 @@ A local viewer for WhatsApp chat exports (ZIP files).
 - **Search:** Instantly search messages and senders.
 - **Date Range:** Filter messages by date.
 - **Fast & Private:** All processing is local—no server needed.
-- **Pixel Owl Favicon:** Includes a custom pixel owl favicon for fun!
 
 ## Getting Started
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/eugeniedc/test-repo.git
-   cd test-repo
+   git clone https://github.com/eugeniedc/whatsapp-zip-viewer.git
+   cd whatsapp-zip-viewer
    ```
 
 2. **Install dependencies**
@@ -26,14 +25,23 @@ A local viewer for WhatsApp chat exports (ZIP files).
    npm install
    ```
 
-3. **Run the app**
+3. **Run the development server**
    ```bash
    npm run dev
-   # or
-   npm start
+   ```
+   The application will be available at `http://localhost:5173`
+
+4. **Build for production**
+   ```bash
+   npm run build
    ```
 
-4. **Usage**
+5. **Preview the production build**
+   ```bash
+   npm run preview
+   ```
+
+6. **Usage**
    - Open the app in your browser.
    - Upload your WhatsApp export `.zip` file.
    - Search/filter messages instantly and privately.
@@ -41,6 +49,6 @@ A local viewer for WhatsApp chat exports (ZIP files).
 ## Tech Stack
 
 - React & TypeScript
-- [shadcn/ui](https://ui.shadcn.com/) for UI components
+- [Vite](https://vitejs.dev/) for fast development and building
 - [jszip](https://www.npmjs.com/package/jszip) for ZIP extraction
 
